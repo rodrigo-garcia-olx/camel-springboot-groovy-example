@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan('com.olx')
-class MagnetoApplication {
+class Application {
 
 	static void main(String[] args) {
-		SpringApplication.run MagnetoApplication, args
+		SpringApplication.run Application, args
 	}
 }
